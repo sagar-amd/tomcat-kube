@@ -13,8 +13,12 @@ pipeline {
         }
         stage('stage2') {
             steps {
-                echo "WebHook Triggered !!!"
+                echo "WebHook No Triggered !!!"
             }
         }
+        stage('stage3') {
+            steps {
+                echo "WebHook Triggered Now !!!"
+            }
     }
 }
