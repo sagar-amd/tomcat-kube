@@ -11,5 +11,10 @@ pipeline {
                 echo "This is awsome !!!"
             }
         }
+        stage('stage2') {
+            steps {
+                echo "WebHook Triggered !!!"
+            }
+        }
     }
 }
